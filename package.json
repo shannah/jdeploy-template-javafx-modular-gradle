@@ -1,0 +1,36 @@
+{
+    "bin": {"jdeploy-template-javafx-modular-gradle": "jdeploy-bundle/jdeploy.js"},
+    "author": "Steve Hannah",
+    "description": "JavaFX Demo App using Modules and Gradle",
+    "main": "index.js",
+    "preferGlobal": true,
+    "repository": "",
+    "version": "1.0.0",
+    "jdeploy": {
+        "jdk": false,
+        "buildCommand": [
+            "./gradlew",
+            "buildExecutableJar"
+        ],
+        "publishTargets": [{
+            "name": "npm: jdeploy-template-javafx-modular-gradle",
+            "type": "NPM",
+            "url": "jdeploy-template-javafx-modular-gradle"
+        }],
+        "javaVersion": "21",
+        "jar": "build/libs/jdeploy-template-javafx-modular-gradle-1.0.0.jar",
+        "javafx": true,
+        "title": "JavaFX Modular Gradle Demo"
+    },
+    "dependencies": {
+        "command-exists-promise": "^2.0.2",
+        "node-fetch": "2.6.7",
+        "tar": "^4.4.8",
+        "yauzl": "^2.10.0",
+        "shelljs": "^0.8.4"
+    },
+    "license": "ISC",
+    "name": "jdeploy-template-javafx-modular-gradle",
+    "files": ["jdeploy-bundle"],
+    "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+}
