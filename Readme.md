@@ -43,9 +43,6 @@ See [jDeploy Manual](https://www.jdeploy.com/docs/manual/)
 ## 📄 License
 This project is licensed under the **MIT** License. You are free to use and modify it as needed.
 
----
-💡 **{{ appTitle }}** allows you to start a JavaFX project without worrying about complex configurations. Enjoy and create powerful applications right from the start! 🚀
-
 ## Credits
 
 This template was adapted from https://github.com/JulienTroudet/easyJavaFXSetup, the fantastic JavaFX starter project created by Julien Troudet.
